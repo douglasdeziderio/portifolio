@@ -146,11 +146,21 @@ body{
     background-color: var(--cor-pri);
 }
 
+.amostra {
+    display: flex;
+    gap: 30px;
+}
+
+.amostra1 {
+    background-color: var(--cor-qui);
+    border: 15px solid var(--cor-qui);
+    border-radius: 15%;
+}
+
 .apresentacao_web {
-    margin: 5% 10% 5% 10%;
+    margin: 5% 0% 5% 0%;
     padding: 1%;
     box-sizing: border-box;
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,17 +172,16 @@ body{
 
 .igual {
     font-family: 'Poppins', sans-serif;
-    color: var(--cor-pri);
+    color: var(--cor-qui);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .apresentacao_designer {
-    margin: 5% 10% 5% 10%;
+    margin: 5% 0% 5% 0%;
     padding: 1%;
     box-sizing: border-box;
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,37 +191,17 @@ body{
     gap: 30px;
 }
 
-.dif {
-    font-family: 'Poppins', sans-serif;
-    color: var(--cor-qua);
+.apresentacao_social_media {
+    margin: 5% 0% 5% 0%;
+    padding: 1%;
+    box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: var(--cor-qua);
-    color: var(--cor-pri);
-}
-
-.amostra {
-    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--cor-qua); 
+    color: var(--cor-qui);
     gap: 30px;
-}
-
-.amostra1 {
-    background-color: var(--cor-pri);
-    border: 15px solid var(--cor-pri);
-    border-radius: 15%;
-}
-
-.amostra2 {
-    background-color: var(--cor-pri);
-    border: 15px solid var(--cor-pri);
-    border-radius: 15%;
-}
-
-.amostra3 {
-    background-color: var(--cor-pri);
-    border: 15px solid var(--cor-pri);
-    border-radius: 15%;
 }
 
 footer {
