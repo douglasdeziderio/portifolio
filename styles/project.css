@@ -142,8 +142,78 @@ body{
     box-sizing: border-box;
 }
 
+.apresentacao_project {
+    background-color: var(--cor-pri);
+}
 
+.apresentacao_web {
+    margin: 5% 10% 5% 10%;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--cor-qua); 
+    color: var(--cor-qui);
+    gap: 30px;
+}
 
+.igual {
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-pri);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao_designer {
+    margin: 5% 10% 5% 10%;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--cor-qua); 
+    color: var(--cor-qui);
+    gap: 30px;
+}
+
+.dif {
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-qua);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-qua);
+    color: var(--cor-pri);
+}
+
+.amostra {
+    display: flex;
+    gap: 30px;
+}
+
+.amostra1 {
+    background-color: var(--cor-pri);
+    border: 15px solid var(--cor-pri);
+    border-radius: 15%;
+}
+
+.amostra2 {
+    background-color: var(--cor-pri);
+    border: 15px solid var(--cor-pri);
+    border-radius: 15%;
+}
+
+.amostra3 {
+    background-color: var(--cor-pri);
+    border: 15px solid var(--cor-pri);
+    border-radius: 15%;
+}
 
 footer {
     background-color: var(--cor-qua);
