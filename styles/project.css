@@ -193,7 +193,7 @@ body{
 }
 
 .slider label {
-    background-color: #ffffff;
+    background-color: var(--cor-pri);
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -252,7 +252,7 @@ body{
 }
 
 .slider2 label {
-    background-color: #ffffff;
+    background-color: var(--cor-pri);
     bottom: 10px;
     cursor: pointer;
     display: block;
